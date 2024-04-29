@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preguntas</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 
 
 
 
-<style>
-
-
-
- body {
+    <style>
+        body {
 
 
             background-image: url('img/completa.png');
 
             background-repeat: repeat;
             background-size: contain;
-            
+
 
 
         }
 
         @media screen and (min-width: 768px) {
 
-            
+
             body {
                 background-size: auto;
-                
+
             }
         }
 
-.accordion {
+        .accordion {
 
-width: 88%;
-margin: auto;
+            width: 88%;
+            margin: auto;
 
-}
+        }
 
-.accordion-button {
-border: 5px solid black;
+        .accordion-button {
+            border: 5px solid black;
 
-}
+        }
 
-    .btn-primary {
-            border: 5px solid black; 
-            
+        .btn-primary {
+            border: 5px solid black;
+
         }
 
 
-</style>
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            /* Esto es importante para eliminar el espacio adicional que algunas imágenes pueden generar */
+            margin: auto;
+            /* Esto centra las imágenes horizontalmente */
+            border: 5px solid black;
+        }
+    </style>
 
 
 </head>
+
 <body>
-    
+
     <br>
     <br>
-    
+
     <div class="d-grid gap-2 col-6 mx-auto">
         <a href="https://twitter.com/agustin11_/status/1761832481978748982" class="btn btn-primary"
             role="button">TUTORIAL DE COMPRA</a>
-        <a href="vendedores.html" class="btn btn-primary" role="button">LISTA DE VENDEDORES RECOMENDADOS</a>
+        <a href="vendedores.html" class="btn btn-primary" role="button">LISTA DE VENDEDORES</a>
     </div>
 
     <br>
@@ -92,7 +100,7 @@ border: 5px solid black;
             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
-                        <li>Argentina, Colombia, Perú, Chile, Uruguay 25/35 días </li>
+                        <li>Argentina,Colombia,Perú,Chile 25/35 días </li>
                         <br>
 
                         <li>Europa 10/15 días</li>
@@ -101,7 +109,7 @@ border: 5px solid black;
                         <li>EEUU y México 10/15 días </li>
 
                         <br>
-                        <li>Ecuador, Venezuela - courier vía USA
+                        <li>Ecuador, Uruguay, Venezuela - courier vía USA
                     </ul>
                 </div>
             </div>
@@ -193,6 +201,48 @@ border: 5px solid black;
         </div>
 
         <br>
+
+
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                    <strong>Algunos de los parches más pedidos ⬇️</strong>
+                </button>
+            </h2>
+            <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <ul>
+
+                        <img src="img/allCA.png" alt="fanpla">
+                        <br>
+                        <img src="img/allUCL.png" alt="fanpla">
+                        <br>
+                        <img src="img/rmucl.png" alt="fanpla">
+                        <br>
+                        <img src="img/bundespatch.png" alt="fanpla">
+                        <br>
+                        <img src="img/laligapatch.png" alt="fanpla">
+                        <br>
+                        <img src="img/premierpatch.png" alt="fanpla">
+                        <br>
+                        <img src="img/serieapatch.png" alt="fanpla">
+                        <br>
+                        <img src="img/mangasmundial.png" alt="fanpla">
+                        <br>
+                        <img src="img/parchemundial.png" alt="fanpla">
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+        <br>
+
 
         <div class="accordion-item">
             <h2 class="accordion-header">
@@ -305,7 +355,7 @@ border: 5px solid black;
             <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                    <strong> Impuestos al dolar (Argentina)</strong>
+                    <strong> Impuestos al dólar (Argentina)</strong>
                 </button>
             </h2>
             <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
@@ -316,8 +366,9 @@ border: 5px solid black;
                                 href="https://dolarhoy.com/" target="_blank">acá</a>.Dependiendo la entidad de tu
                             tarjeta puede ser un poco más </li>
                         <br>
-                        <li>Paypal, si sos de Argentina podés cargar saldo usando la página <a href="https://saldo.com.ar/"
-                                target="_blank">saldo</a> y pagás al dolar blue. Hay que tener en cuenta que si es
+                        <li>Paypal, si sos de Argentina podés cargar saldo usando la página <a
+                                href="https://saldo.com.ar/" target="_blank">saldo</a> y pagás al dólar blue. Hay que
+                            tener en cuenta que si es
                             cuenta nueva hay posibilidad que retengan el saldo 21 días.</li>
 
                     </ul>
@@ -450,20 +501,13 @@ border: 5px solid black;
         </div>
 
 
-        
-<br>
-
         <!-- termina -->
 
+        <br>
     </div>
 
 
 
-
-
-
-
-
-
 </body>
+
 </html>
